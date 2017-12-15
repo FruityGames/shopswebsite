@@ -1,0 +1,72 @@
+.leftside {
+  position: absolute;
+  left: 0px;
+  width: 25%;
+
+}
+
+body {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: auto;
+background-color: #7c7777;
+}
+
+.hours {
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+  border-width: 3px;
+  border-radius: 10%;
+  border-color: black;
+  border-style: solid;
+  background-color: white;
+}
+
+.locationmap {
+  width: 300px;
+  height: 200px;
+}
+
+header h1 {
+  text-align: center;
+
+}
+
+.rightside {
+  position: absolute;
+  left: 26%;
+}
+
+
+
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 40;
+    text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+    background-color: #111;
+}
+
+ nav .active {
+background-color:#4CAF50;
+}
